@@ -42,6 +42,7 @@ const BaseButton = styled.button<ButtonProps>`
 			`
 			case "large":
 				return `
+				
 				font-size: 1rem;
 				padding: .75rem 1.5rem;
 			`
