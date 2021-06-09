@@ -1,5 +1,5 @@
 import {Button} from "@comps/button"
 
 export default function Home() {
-	return <Button>{"Hello World"}</Button>
+	return <Button label='testing 132' />
 }
