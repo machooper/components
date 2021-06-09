@@ -1,5 +1,5 @@
 // Import required files and dependencies
-import theme from "@styles/theme"
+import theme from "../../styles/theme"
 import styled from "styled-components"
 
 // Declare ButtonProps interface
@@ -19,7 +19,7 @@ export interface ButtonProps {
 	// * Curve of the buttons corners
 	borderRadius: string
 	// * Button contents
-	label: string
+	label?: string
 	// * Optional click handler
 	onClick?: () => void
 }
@@ -54,7 +54,9 @@ const BaseButton = styled.button<ButtonProps>`
 	background: ${p =>
 		p.primary ? theme.colors.primary[0] : theme.colors.white[0]};
 	background: ${p => p.backgroundColor};
+	color: inherit;
 	color: ${p => p.color}
+	border: 1px solid transparent;
 	border: ${p => p.border};
 	border-radius: ${p => p.borderRadius};
 	line-height: 1;

@@ -1,19 +1,6 @@
 {
   "compilerOptions": {
     "baseUrl": ".",
-    "paths": {
-    "@comps/*": ["components/*"],
-    "@layout/*": ["components/layout/*"],
-    "@docs/*": ["components/documents/*"],
-    "@ui/*": ["components/ui/*"],
-    "@lib/*": ["library/*"],
-    "@pages/*": ["pages/*"],
-    "@api/*": ["pages/api/*"],
-    "@styles/*": ["styles/*"],
-    "@pub/*": ["public/*"],
-    "@ico": ["public/icons/*"],
-    "@img": ["public/images/*"]
-    },
     "target": "es5",
     "lib": [
       "dom",
