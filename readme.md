@@ -1,10 +1,10 @@
-# Starter
+# Components
 
 **By Mac**
 
-- [Starter](#starter)
+- [Components](#components)
   - [Dependencies](#dependencies)
-  - [Components](#components)
+  - [Components](#components-1)
 
 ## Dependencies
 
