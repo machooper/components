@@ -5,8 +5,10 @@ export default {
 	title: "UI/Button",
 	component: Button,
 	argTypes: {
+		textColor: {control: "color"},
 		backgroundColor: {control: "color"},
-		color: {control: "color"}
+		hoverTextColor: {control: "color"},
+		hoverBackgroundColor: {control: "color"}
 	}
 } as Meta
 
@@ -33,4 +35,11 @@ export const Small = Template.bind({})
 Small.args = {
 	size: "small",
 	label: "Button"
+}
+
+export const Ghost = Template.bind({})
+Ghost.args = {
+	border: "2px solid #1c1c1c",
+	textColor: "#1c1c1c",
+	hoverBackgroundColor: "#1c1c1c"
 }
