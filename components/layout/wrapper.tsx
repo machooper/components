@@ -12,6 +12,9 @@ const PageWrapper = styled.div<WrapperProps>`
 	align-items: center;
 `
 
-export const Wrapper: React.FC<WrapperProps> = ({flexDirection = "column"}) => {
-	return <PageWrapper flexDirection={flexDirection} />
+export const Wrapper: React.FC<WrapperProps> = ({
+	flexDirection = "column",
+	children
+}) => {
+	return <PageWrapper flexDirection={flexDirection}>{children}</PageWrapper>
 }
