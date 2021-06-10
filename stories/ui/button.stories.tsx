@@ -8,7 +8,8 @@ export default {
 		textColor: {control: "color"},
 		backgroundColor: {control: "color"},
 		hoverTextColor: {control: "color"},
-		hoverBackgroundColor: {control: "color"}
+		hoverBackgroundColor: {control: "color"},
+		weight: {control: {type: 'range', min: 100, max: 900, step: 100}}
 	}
 } as Meta
 
